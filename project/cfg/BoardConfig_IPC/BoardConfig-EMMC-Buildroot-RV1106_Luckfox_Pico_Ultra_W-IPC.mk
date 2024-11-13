@@ -114,3 +114,5 @@ export RK_ENABLE_WIFI_CHIP=AIC8800DC
 export LF_WIFI_SSID="Your wifi ssid"
 export LF_WIFI_PSK="Your wifi password"
 
+# disable android adbd
+export RK_ENABLE_ADBD=n

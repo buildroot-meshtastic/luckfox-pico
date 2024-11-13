@@ -109,3 +109,5 @@ export RK_ENABLE_ROCKCHIP_TEST=y
 # enable rockchip wifi
 #export RK_ENABLE_WIFI=y
 
+# disable android adbd
+export RK_ENABLE_ADBD=n

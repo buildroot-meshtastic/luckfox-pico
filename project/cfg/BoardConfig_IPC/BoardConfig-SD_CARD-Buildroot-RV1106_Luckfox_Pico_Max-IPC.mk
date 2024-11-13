@@ -102,3 +102,6 @@ export RK_BUILD_APP_TO_OEM_PARTITION=y
 
 # enable rockchip test
 export RK_ENABLE_ROCKCHIP_TEST=y
+
+# disable android adbd
+export RK_ENABLE_ADBD=n
