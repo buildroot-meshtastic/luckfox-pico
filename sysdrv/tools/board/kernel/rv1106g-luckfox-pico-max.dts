@@ -89,7 +89,7 @@
 
 /**********SPI**********/
 &spi0 {
-	status = "disabled";
+	status = "okay";
 	spidev@0 {
 		spi-max-frequency = <50000000>;
 	};
@@ -101,7 +101,7 @@
 /**********I2C**********/
 /* I2C3_M1 */
 &i2c3 {
-	status = "disabled";
+	status = "okay";
 	clock-frequency = <100000>;
 };
 

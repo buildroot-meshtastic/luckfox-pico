@@ -11,7 +11,7 @@ export RK_CHIP=rv1106
 export RK_APP_TYPE=RKIPC_RV1103
 
 # Config CMA size in environment
-export RK_BOOTARGS_CMA_SIZE="24M"
+export RK_BOOTARGS_CMA_SIZE="1M"
 
 # Kernel dts
 export RK_KERNEL_DTS=rv1103g-luckfox-pico-plus.dts
@@ -115,3 +115,6 @@ export RK_PRE_BUILD_USERDATA_SCRIPT=luckfox-userdata-pre.sh
 
 # declare overlay directory
 export RK_POST_OVERLAY="overlay-luckfox-config overlay-luckfox-buildroot-init overlay-luckfox-buildroot-shadow"
+
+# disable android adbd
+export RK_ENABLE_ADBD=n
